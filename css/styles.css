@@ -9,3 +9,19 @@ h1 {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+.username-c1 {
+    text-decoration-color: #5e85a8;
+}
+
+.username-c2 {
+    text-decoration-color: #b861b5;
+}
+
+.username-c3 {
+    text-decoration-color: #9036b3;
+}
+
+.username-c1, .username-c2, .username-c3 {
+    display: inline-block;
+}
