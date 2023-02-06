@@ -1,28 +1,16 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
 body {
-    background-color: #e0d3a6;
+    background-color: #baa074;
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 100px;
     padding-right: 50px;
     padding-top: 25px;
     padding-bottom: 25px;
-}
-
-.username-c1 {
-    text-decoration-color: #5e85a8;
-}
-
-.username-c2 {
-    text-decoration-color: #b861b5;
-}
-
-.username-c3 {
-    text-decoration-color: #9036b3;
-}
-
-.username-c1, .username-c2, .username-c3 {
-    vertical-align: middle;
-    display: inline-block;
 }
