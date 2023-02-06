@@ -4,13 +4,28 @@
 }
 
 body {
-    background-color: #baa074;
+    background-color: #a0aecd;
 }
 
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-left: 100px;
-    padding-right: 50px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    text-align: center;
+    font-size: 75px;
+}
+
+span.username1 {
+    color: #efe6d5;
+}
+
+span.username2 {
+    color: #9dbeb7;
+}
+
+span.username3 {
+    color: #e73213;
+}
+
+.username {
+    -webkit-text-stroke: 0.05em;
+    -webkit-text-stroke-color: #000000;
 }
