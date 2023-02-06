@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Courier New', Courier, monospace;
     padding-left: 100px;
     padding-right: 50px;
     padding-top: 25px;
@@ -23,5 +23,6 @@ h1 {
 }
 
 .username-c1, .username-c2, .username-c3 {
+    vertical-align: middle;
     display: inline-block;
 }
