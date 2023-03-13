@@ -19,3 +19,20 @@ h1 {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+span.username1 {
+    color: #efe6d5;
+}
+
+span.username2 {
+    color: #9dbeb7;
+}
+
+span.username3 {
+    color: #e73213;
+}
+
+.username {
+    -webkit-text-stroke: 0.05em;
+    -webkit-text-stroke-color: #000000;
+}
