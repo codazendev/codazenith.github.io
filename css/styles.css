@@ -1,26 +1,21 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('fonts/webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/webfont.woff')  format('woff'), /* Pretty Modern Browsers */
+         url('fonts/webfont.ttf')   format('truetype'), /* Safari, Android, iOS */
+         url('fonts/webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
 body {
     background-color: #a0aecd;
 }
 
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-size: 75px;
-}
-
-span.username1 {
-    color: #efe6d5;
-}
-
-span.username2 {
-    color: #9dbeb7;
-}
-
-span.username3 {
-    color: #e73213;
-}
-
-.username {
-    -webkit-text-stroke: 0.05em;
-    -webkit-text-stroke-color: #000000;
+    font-family: 'MyWebFont', Fallback, sans-serif;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
